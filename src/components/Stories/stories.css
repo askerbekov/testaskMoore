@@ -1,0 +1,17 @@
+.stories-bar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+}
+.stories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+.stories  img{
+    width: 60px;
+    height: 60px;
+}

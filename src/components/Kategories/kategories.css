@@ -1,0 +1,28 @@
+.category-position {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+.category-card {
+    padding: 10px 0 0 10px;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background: #d5d5d5;
+}
+.category p{
+    margin: 0;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.category span {
+    color:  #727272;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
