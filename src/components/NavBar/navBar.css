@@ -1,0 +1,74 @@
+.nav-bar {
+    background-color: #2D82BE;
+    padding: 15px 0;
+}
+.container {
+    max-width: 1240px ;
+    margin: 0 auto;
+}
+.nav-bar-position{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.catalog-btn {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 14px 28px;
+    border-radius: 100px;
+    border: 0;
+    background: rgba(0, 0, 0, 0.10);
+    color: white;
+}
+.search-form {
+
+}
+.search-input {
+    width: 675px;
+    height: 40px;
+    border-radius: 1000px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    border: 0;
+}
+.login-bar{
+display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.login-bar img{
+    width: 30px;
+    height: 30px;
+}
+.login-bar span {
+    width: 1px;
+    height: 30px;
+    border: 2px solid #FFFFFF33;
+}
+.login-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.login-links p {
+    margin: 0;
+    color: #FFF;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.login-links a {
+    color: #FFF;
+    list-style: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.link-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
