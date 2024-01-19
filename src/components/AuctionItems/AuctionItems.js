@@ -1,17 +1,14 @@
 import React from 'react';
-import  './salesHits.css'
+import './auctionItems.css'
+import {Swiper, SwiperSlide} from "swiper/react";
+import {FreeMode, Mousewheel, Navigation, Scrollbar} from "swiper/modules";
 import HitsCard from "../HitsCard/HitsCard";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import {FreeMode, Mousewheel, Navigation, Pagination, Scrollbar} from 'swiper/modules';
-// import Swiper and modules styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-const SalesHits = () => {
+
+const AuctionItems = () => {
     return (
         <div className={'container'}>
             <div className={'title-bar'}>
-                <h2>Хиты продаж</h2>
+                <h2>Аукционные товары</h2>
                 <button>перейти в каталог</button>
             </div>
             <Swiper
@@ -45,4 +42,4 @@ const SalesHits = () => {
     );
 };
 
-export default SalesHits;
+export default AuctionItems;

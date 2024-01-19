@@ -1,0 +1,11 @@
+.title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-bar button {
+    color: #3186C3;
+    background-color: #fff;
+    padding: 10px 11px;
+    border: 1px solid #3186C3;
+}

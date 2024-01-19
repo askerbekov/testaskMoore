@@ -1,0 +1,54 @@
+footer {
+    background: linear-gradient(107deg, #3186C3 6.46%, #004F86 68.08%);
+    padding: 72px 0;
+}
+.footer-position {
+display: flex;
+    justify-content: space-between;
+}
+.footer-position p{
+    width: 230px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+.right-footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.apps-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.content-style h4 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.content-style span{
+    color: #E0E0E0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content-style p {
+    margin: 0;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

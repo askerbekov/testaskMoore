@@ -3,6 +3,9 @@ import NavBar from "./components/NavBar/NavBar";
 import Stories from "./components/Stories/Stories";
 import Kategories from "./components/Kategories/Kategories";
 import SalesHits from "./components/SalesHits/SalesHits";
+import News from "./components/News/News";
+import AuctionItems from "./components/AuctionItems/AuctionItems";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
     return (
@@ -11,6 +14,9 @@ const App = () => {
             <Stories/>
             <Kategories/>
             <SalesHits/>
+            <News/>
+            <AuctionItems/>
+            <Footer/>
         </div>
     );
 };
